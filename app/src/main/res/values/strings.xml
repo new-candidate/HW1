@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name" translatable="false">Lesson1Weather</string>
+    <string name="city">Moscow</string>
+    <string name="textView12">    Weather    </string>
+    <string name="textView14"> |   Test14URA    |</string>
+    <string name="today"> | Today  </string>
+    <string name="tomorrow">  | Tomorrow  </string>
+    <string name="dayAfter">  | Day after | </string>
+    <string name="day">  Day     | </string>
+    <string name="night">  Night | </string>
+
+    <string name="ttodayday" translatable="false"> | 10° С  </string>
+    <string name="ttodaynight" translatable="false"> | -1° С  </string>
+    <string name="ttomorrowday" translatable="false">  | 12° С  </string>
+    <string name="ttomorrownight" translatable="false">  | 3° С  </string>
+    <string name="tdayAfterday" translatable="false">  | 11° С  </string>
+    <string name="tdayAfternight" translatable="false">  | 4° С </string>
+
+
+
+</resources>
