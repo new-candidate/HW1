@@ -19,13 +19,14 @@ public class MainActivity extends AppCompatActivity {
     }
     private void initViews() {
         textView = findViewById(R.id.cityTextView);
+    }
 
 //        int orientation = getResources().getConfiguration().orientation;
 //        if (orientation != Configuration.ORIENTATION_LANDSCAPE) {
 //            beginnerSwitch = findViewById(R.id.switch1);
 //        }
+//}
 
-    }
     private void setColorOfTextView() {
         //String appName = getString(R.string.app_name);
         textView.setTextColor(ContextCompat.getColor(getApplicationContext(), R.color.colorPrimary));

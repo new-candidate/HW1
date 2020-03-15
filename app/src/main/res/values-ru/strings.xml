@@ -9,4 +9,29 @@
     <string name="dayAfter"> | Послезавтра | </string>
     <string name="day">  Днем  | </string>
     <string name="night">  Ночью | </string>
+
+
+    <string name="settings">  Установки | </string>
+    <string name="air_pressure">  Давление | </string>
+    <string name="wind_velocity">  Скорость ветра | </string>
+    <string name="enter_city">  Пожалуйста введите название вашего города | </string>
+
+    <string name="button_city1">  Москва  </string>
+    <string name="button_city2">  Нью Йорк  </string>
+    <string name="button_city3">  Вашингтон  </string>
+    <string name="button_city4">  Лондон  </string>
+    <string name="button_city5">  Берлин  </string>
+    <string name="button_city6">  Париж  </string>
+    <string name="button_city7">  Барселона  </string>
+    <string name="button_city8">  Минск  </string>
+    <string name="next">  Далее  </string>
+
+
+    <string name="switch_autolocation">   Автоматическое определение местоположения  </string>
+    <string name="switch_notiftcation">   Показывать температуру в уведомлениях </string>
+    <string name="switch_temperatureincf">   Указать температуру в F°  </string>
+    <string name="switch_thrme">   Включить темную тему  </string>
+    <string name="configuration">   Настройки  </string>
+    <string name="text_instruction1">  Пожалуйста выберите ваш город или введите его в поле ниже  </string>
+
 </resources>
