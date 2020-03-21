@@ -32,8 +32,6 @@
     <string name="next">  Next  </string>
 
 
-
-
     <string name="switch_autolocation">   Automatic location detection  </string>
     <string name="switch_notiftcation">   Show temperature in notification </string>
     <string name="switch_temperatureincf">   Specify the temperature in F°  </string>
@@ -41,12 +39,6 @@
     <string name="configuration">   Сonfiguration  </string>
 
     <string name="text_instruction1">  Please select your city or enter it in the field below  </string>
-
-
-
-
-
-
 
 
 </resources>
