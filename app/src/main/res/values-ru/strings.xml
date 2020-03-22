@@ -33,5 +33,6 @@
     <string name="switch_thrme">   Включить темную тему  </string>
     <string name="configuration">   Настройки  </string>
     <string name="text_instruction1">  Пожалуйста выберите ваш город или введите его в поле ниже  </string>
-
+    <string name="back">   Назад  </string>
+    <string name="info">   Справка  </string>
 </resources>

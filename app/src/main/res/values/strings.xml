@@ -37,6 +37,9 @@
     <string name="switch_temperatureincf">   Specify the temperature in F°  </string>
     <string name="switch_thrme">   Enable a dark theme  </string>
     <string name="configuration">   Сonfiguration  </string>
+    <string name="back">   Back  </string>
+    <string name="info">   Info  </string>
+
 
     <string name="text_instruction1">  Please select your city or enter it in the field below  </string>
 

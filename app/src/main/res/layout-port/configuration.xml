@@ -8,41 +8,45 @@
     android:backgroundTint="#FFFFFF">
 
     <Switch
-        android:id="@+id/switch1"
+        android:id="@+id/switchLocation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:splitTrack="true"
         android:text="@string/switch_autolocation"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.208"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
+
     <Switch
-        android:id="@+id/switch2"
+        android:id="@+id/switchNotification"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:checked="false"
         android:text="@string/switch_notiftcation"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/switch1" />
+        app:layout_constraintTop_toBottomOf="@+id/switchLocation"
+        tools:checked="false" />
 
     <Switch
-        android:id="@+id/switch3"
+        android:id="@+id/switchCFIndication"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/switch_temperatureincf"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/switch2" />
+        app:layout_constraintTop_toBottomOf="@+id/switchNotification" />
 
     <Switch
-        android:id="@+id/switch4"
+        android:id="@+id/switchTheme"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/switch_thrme"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/switch3" />
+        app:layout_constraintTop_toBottomOf="@+id/switchCFIndication" />
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -51,4 +55,16 @@
         android:textSize="32sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="324dp"
+        android:text="@string/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switchTheme"
+        app:layout_constraintVertical_bias="0.245" />
 </androidx.constraintlayout.widget.ConstraintLayout>

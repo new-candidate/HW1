@@ -3,8 +3,7 @@ package ru.geekbrains.lesson3weather;
 import java.io.Serializable;
 
 public class DataContainer implements Serializable {
-//    boolean wind_velocity;
-//    boolean air_pressure;
+
     private String city1;
     private static DataContainer instance;
 
@@ -24,11 +23,6 @@ public class DataContainer implements Serializable {
         return city1;
     }
 
-//    public void setWind_velocity(boolean wind_velocity) {
-//        this.wind_velocity = wind_velocity;
-//    }
-//    public void setAir_pressure(boolean air_pressure) {
-//        this.air_pressure = air_pressure;
-//    }
+
 }
 
