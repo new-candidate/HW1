@@ -16,6 +16,32 @@
     <string name="tdayAfterday" translatable="false">  | 11° С  </string>
     <string name="tdayAfternight" translatable="false">  | 4° С </string>
 
+    <string name="settings">  Settings </string>
+    <string name="air_pressure">  Display air pressure </string>
+    <string name="wind_velocity">  Display wind velocity  </string>
+    <string name="enter_city">  Please enter your city  </string>
+
+    <string name="button_city1">  Moscow  </string>
+    <string name="button_city2">  New York  </string>
+    <string name="button_city3">  Washington  </string>
+    <string name="button_city4">  London  </string>
+    <string name="button_city5">  Berlin  </string>
+    <string name="button_city6">  Paris  </string>
+    <string name="button_city7">  Barcelona  </string>
+    <string name="button_city8">  Minsk  </string>
+    <string name="next">  Next  </string>
+
+
+    <string name="switch_autolocation">   Automatic location detection  </string>
+    <string name="switch_notiftcation">   Show temperature in notification </string>
+    <string name="switch_temperatureincf">   Specify the temperature in F°  </string>
+    <string name="switch_thrme">   Enable a dark theme  </string>
+    <string name="configuration">   Сonfiguration  </string>
+    <string name="back">   Back  </string>
+    <string name="info">   Info  </string>
+
+
+    <string name="text_instruction1">  Please select your city or enter it in the field below  </string>
 
 
 </resources>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textview_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="@string/settings"
+        android:textSize="32sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/city1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_city"
+        android:ems="10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_instruction1">
+
+        <requestFocus></requestFocus>
+    </EditText>
+
+
+    <Button
+        android:id="@+id/button_city1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:backgroundTint="#6200EE"
+        android:text="@string/button_city1"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_city7" />
+
+    <Button
+        android:id="@+id/button_city7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_city1"
+        android:layout_toEndOf="@id/button_city6"
+        android:backgroundTint="#6200EE"
+        android:text="@string/button_city7"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/button_city6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview_settings" />
+
+    <Button
+        android:id="@+id/button_city4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        android:layout_toEndOf="@id/button_city3"
+        android:backgroundTint="#6200EE"
+        android:text="@string/button_city4"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/button_city6"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_city8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_city1"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@id/button_city7"
+        android:backgroundTint="#6200EE"
+        android:text="@string/button_city8"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/button_city5"
+        app:layout_constraintTop_toBottomOf="@+id/button_city4" />
+
+    <Button
+        android:id="@+id/button_city3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
+        android:layout_toEndOf="@id/button_city2"
+        android:backgroundTint="#6200EE"
+        android:text="@string/button_city3"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/button_city4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_city2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_toEndOf="@id/button_city1"
+        android:backgroundTint="#6200EE"
+        android:text="@string/button_city2"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/button_city8"
+        app:layout_constraintTop_toBottomOf="@+id/button_city3" />
+
+    <Button
+        android:id="@+id/button_city6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_city1"
+        android:layout_marginTop="44dp"
+        android:layout_toEndOf="@id/button_city5"
+        android:backgroundTint="#6200EE"
+        android:text="@string/button_city6"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="136dp" />
+
+    <Button
+        android:id="@+id/button_city5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_city1"
+        android:layout_alignStart="@id/button_city1"
+        android:layout_marginStart="32dp"
+        android:backgroundTint="#6200EE"
+        android:text="@string/button_city5"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/button_city1"
+        app:layout_constraintTop_toBottomOf="@+id/button_city6" />
+
+    <TextView
+        android:id="@+id/text_instruction1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="192dp"
+        android:text="@string/text_instruction1"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.282"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_city8" />
+
+    <CheckBox
+        android:id="@+id/wind_velocity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:text="@string/wind_velocity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/city1" />
+
+    <CheckBox
+        android:id="@+id/air_pressure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:text="@string/air_pressure"
+        app:layout_constraintEnd_toStartOf="@+id/nextButton"
+        app:layout_constraintHorizontal_bias="0.365"
+        app:layout_constraintStart_toEndOf="@+id/wind_velocity"
+        app:layout_constraintTop_toTopOf="@+id/wind_velocity" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:backgroundTint="#6200EE"
+        android:text="@string/next"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/air_pressure" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
